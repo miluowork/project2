@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+     
+
+        #win10-login-box {
+            width: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .win10-login-box-square {
+            width: 105px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-color: darkgray;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .win10-login-box-square::after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+        .win10-login-box-square .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        input {
+            width: 90%;
+            display: block;
+            border: 0;
+            margin: 0 auto;
+            line-height: 36px;
+            font-size: 20px;
+            padding: 0 1em;
+            border-radius: 5px;
+            margin-bottom: 11px;
+        }
+
+        .login-username, .login-password,.login-rcode {
+            width: 91%;
+            font-size: 13px;
+            color: #999;
+        }
+
+
+
+      
+         .login-rcode {
+          
+            width: calc(91% - 100px);
+
+            margin-right: 2px;
+            float: left;
+        }
+
+        .login-submit {
+           width: 90%;
+            display: block;
+            border: 0;
+          
+            padding: 0 1em;
+            border-radius: 5px;
+             float: left;
+            margin-left:50px;
+           
+            background-color: #009688;
+            width: 100px;
+            display: inline-block;
+            height: 36px;
+            line-height: 36px;
+            padding: 0 auto;
+            color: #fff;
+            white-space: nowrap;
+            text-align: center;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            opacity: .9;
+            filter: alpha(opacity=90);
+
+        }
+        
+        
+        
+body {
+	font: 18px "宋体";
+	text-align: center;
+}
+
+.viewlist input{
+	height: 30px;
+	border: #bbb solid 1px;
+}
+.viewlist select{
+	height: 30px;
+	border: #bbb solid 1px;
+}
+.viewlist label{
+	height: 30px;
+}
+
+a:link {
+	color: #00F;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c00;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+}
+
+.main {
+	clear: both;
+	padding: 8px;
+	text-align: center;
+}
+
+
+
+.menu0 {
+	width: 400px;
+}
+
+.menu0 li {
+	 border-radius: 5px;
+	display: block;
+	float: left;
+	padding: 4px 0;
+	height:30px;
+	line-height:30px;
+	width: 110px;
+	text-align: center;
+	cursor: pointer;
+	background: #FFFFff;
+}
+
+.menu0 li.hover {
+	background: #54f2e4;
+}
+.viewlist input{
+	height: 30px;
+}
+.viewlist select{
+	height: 30px;
+}
+.viewlist label{
+	height: 30px;
+}
+
+#main0 ul {
+	display: none;
+}
+
+#main0 ul.block {
+	display: block;
+}
+        

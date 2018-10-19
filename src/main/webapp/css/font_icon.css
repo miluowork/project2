@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*******字体颜色*****************/
+.color_red{
+	 color:#c25555;}
+.color_blue{
+	 color:#0088c7;}
+.color_green{
+	 color:#1aa9b0;}
+.color_yellow{
+	 color:#d68200;}
+.color_gray{
+	 color:#425d76;}
+
+/*******背景颜色*****************/
+.background_red{
+	background:url(../img/color/red.png) center no-repeat;
+	background-size:100% 100%;	
+}
+.background_green{
+	background:url(../img/color/green.png) center no-repeat;
+	background-size:100% 100%;	
+}
+.background_blue{
+	background:url(../img/color/blue.png) center no-repeat;
+	background-size:100% 100%;	
+}
+.background_yellow{
+	background:url(../img/color/yellow.png) center no-repeat;
+	background-size:100% 100%;	
+}
+.background_gray{
+	background:url(../img/color/gray.png) center no-repeat;
+	background-size:100% 100%;	
+}
+/*******图标大小*****************/
+.size_64{
+	display:inline-block;
+	width:64px;
+	height:64px;
+	font-size:24px;
+	line-height:64px;
+	text-align:center;
+}
+.size_50{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	font-size:18px;
+	line-height:50px;
+	text-align:center;
+	margin-bottom: 4px;
+}
+.size_32{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	font-size:12px;
+	line-height:32px;
+	text-align:center;
+}
